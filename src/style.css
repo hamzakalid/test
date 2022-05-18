@@ -1,0 +1,45 @@
+.box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: calc(100% - 100px);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 4px #00000038;
+    z-index: 9999;
+    display: none;
+}
+.box iframe{
+    border: none;
+    height: 100% ;
+    width: 100%;
+}
+
+.box button.close{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.box button.close svg{
+    width: 20px;
+}
+
+button.icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button.icon img{
+    width: 80px;
+}

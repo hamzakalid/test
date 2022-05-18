@@ -9,6 +9,7 @@
     box-shadow: 0 0 12px 4px #00000038;
     z-index: 9999;
     display: none;
+    overflow: hidden;
 }
 .box iframe{
     border: none;
